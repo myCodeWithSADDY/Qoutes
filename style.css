@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  /* Container for the post */
+  .container {
+    background-color: white;
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    margin-right: 15px;
+  }
+  
+  .profile {
+    width: 53px;
+    height: 53px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Main Content Section */
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  .pfp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .pfp strong {
+    font-size: 16px;
+    color: black;
+  }
+  
+  .verify {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Text Content */
+  #text {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+.interaction-buttons {
+    display: flex;
+    gap: 10px; /* Reduce gap between icons */
+    margin-top: 10px;
+  }
+  
+  .interaction-buttons .btn-icon {
+    width: 18px;  /* Adjust the width of the icons */
+    height: 18px; /* Adjust the height of the icons */
+    cursor: pointer;
+  }
+  
+  .interaction-buttons .btn-icon:hover {
+    opacity: 0.8; /* Slight hover effect */
+  }
+  
